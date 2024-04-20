@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>  <!-- header/nav/main/section均仅用于标记html结构，无实际显示 -->
+        <h1 >烘焙工坊</h1>
+        <ul>    <!-- ul列表以圆点开头 ，ol列表带序号 -->
+            <li><a href="#">点赞</a></li>
+            <li><a href="#">关注</a></li>
+            <li><a href="#">收藏</a></li>    
+        </ul>
+    </header>
+
+    <nav>
+        <ol>  
+            <li style="color:#37b6ed">first</li>
+            <li>second</li>
+            <li>third</li>
+        </ol>
+    </nav>
+
+    <main>
+        <section class="news">  <!-- 加上class属性便于修改风格时用以区分 -->
+            <blockquote cite="https://www.baidu.com/">"这是一个引用"</blockquote>
+        </section>
+
+        <section class="page">
+            <img src="用例图.png" alt="用例图" ></img>
+            <div class="info">   <!-- 用div标签将h2标题与p段落划分在一起 -->
+                <h2>这是一个用例图</h2>
+                <p>HTML是标记语言，用于决定网页中有哪些元素，是一个框架。<br>
+                   而CSS则负责美化，包括文字排版和图片位置等。</p>
+            </div>
+        </section>    
+
+        <section class="letter">
+            <p>欢迎订阅！</p>
+            <form>  <!-- form即表单标签 -->
+                <input type="email" placeholder="请输入您的Email" required>
+                    <!-- required表示必填 -->
+                <button type="submit">送出</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="for_while.js">  
+        // 这是一个注释
+        console.log("yes")
+        console.log("hello")
+    </script>
+</body>
+</html>
