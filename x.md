@@ -1,5 +1,1 @@
-<table>
-  <td bgcolor=orange>
-    背景颜色
-  </td>
-</table>
+<table><td bgcolor="#FFFF93">text</table>
